@@ -13,10 +13,10 @@ class Estudiante
     #[ORM\Column]
     private ?int $id = null;
 
-    #[ORM\Column(length: 255)]
+    #[ORM\Column(length: 245)]
     private ?string $nombre = null;
 
-    #[ORM\Column(length: 255)]
+    #[ORM\Column(length: 245)]
     private ?string $apellidos = null;
 
     #[ORM\Column(length: 9)]
